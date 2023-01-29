@@ -1,0 +1,6 @@
+[plugin]
+id = "fhir-compiler-plugin"
+class = "org.wso2.healthcare.fhir.compiler.FHIRCompilerPlugin"
+
+[[dependency]]
+path = "../compiler-plugin/build/libs/fhir-compiler-plugin-@project.version@.jar"
